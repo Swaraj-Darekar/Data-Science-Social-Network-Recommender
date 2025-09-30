@@ -1,0 +1,35 @@
+Project: Social Recommender System
+
+Goal:
+
+Enter a user ID → Automatically show:
+
+People you may know (names)
+
+Pages you may like (names)
+
+Features:
+
+Modular: Each functionality in a separate file
+
+Cleaned and consistent data
+
+User-friendly output
+
+Easy to maintain and scale
+
+Project Structure
+SocialRecommender/
+│
+├── data/
+│   ├── data2.json           # Raw JSON data
+│   └── clean_data2.json     # Generated after cleaning
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py       # load_data function
+│   ├── data_cleaner.py      # clean_data function
+│   ├── people_you_know.py   # people_you_may_know function
+│   └── pages_you_may_like.py # pages_you_might_like function
+│
+└── main.py                  # Menu-free, main script
