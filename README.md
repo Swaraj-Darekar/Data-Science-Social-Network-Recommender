@@ -43,6 +43,54 @@ social-network-recommender/
 
 ```
 
+---
+
+## 📂 Example JSON Data
+
+```
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amit",
+      "friends": [2, 3],
+      "liked_pages": [101]
+    },
+    {
+      "id": 2,
+      "name": "Sita",
+      "friends": [1, 3],
+      "liked_pages": [102, 103]
+    },
+    {
+      "id": 3,
+      "name": "Ravi",
+      "friends": [1, 2],
+      "liked_pages": [101, 104]
+    }
+  ],
+  "pages": [
+    {
+      "id": 101,
+      "name": "Tech Updates"
+    },
+    {
+      "id": 102,
+      "name": "Cooking Tips"
+    },
+    {
+      "id": 103,
+      "name": "Travel Diaries"
+    },
+    {
+      "id": 104,
+      "name": "Fitness World"
+    }
+  ]
+}
+
+```
+
 
 ## 🔧 Installation
 
